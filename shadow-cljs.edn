@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :builds
+ {:functions
+  {:target      :node-library
+   :output-to   "functions/index.js"
+   :exports-var cljs-firebase.core/cloud-functions}}}

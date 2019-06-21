@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "handleRequest"
+      }
+    ],
+    "public": "public",
+    "predeploy": "yarn shadow-cljs release functions && cp package.json functions/package.json && mkdir -p public"
+  }
+}

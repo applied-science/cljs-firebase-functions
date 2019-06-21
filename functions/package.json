@@ -1,0 +1,13 @@
+{
+  "engines": {
+    "node": "8"
+  },
+  "devDependencies": {
+    "firebase-tools": "^7.0.1",
+    "shadow-cljs": "^2.8.39"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.2.0",
+    "firebase-functions": "^3.0.1"
+  }
+}
